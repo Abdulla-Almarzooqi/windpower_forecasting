@@ -13,10 +13,10 @@ Our primary objective is to evaluate the efficiency of various models by compari
     
   1. Create a conda environment:
 
-     ```
-     conda create -n windpower_forecasting
-     conda activate windpower_forecasting
-     ```
+  ```
+  conda create -n windpower_forecasting
+  conda activate windpower_forecasting
+  ```
 
   2. To install the required libraries, run the following command:
 
@@ -32,8 +32,8 @@ Our primary objective is to evaluate the efficiency of various models by compari
    The provided full-year hourly time series are simulated using the National Renewable Energy Laboratory (NREL) software for a location in Texas, US. It has perfect data completeness and no noisy data, which are challenges that hinder forecasting tasks with real datasets and distract from the goal `TexasTurbine.csv`. The dataset contains various weather features that can be analyzed and used as predictors. These features are System Power Generated (in kW), Wind Speed (in m/s), Wind Direction (in degrees °), Pressure (in atm), and Air Temperature (in °C). Also, you can find the [dataset](https://www.kaggle.com/datasets/pravdomirdobrev/texas-wind-turbine-dataset-simulated?select=TexasTurbine.csv).
 
 ## Evaluation
-1. This notebook, ' ML703project_dataset_1.ipynb, ' refers to the comparison between the models (LSTM, GRU, RNN, and CNN-1D) for the particular Turkey dataset.
-2. This notebook, ' ML703project_dataset_2.ipynb, ' refers to the comparison between the models (LSTM, GRU, RNN, and CNN-1D) for the particular Turkey dataset.
+1. This notebook, `ML703project_dataset_1.ipynb`, refers to the comparison between the models (LSTM, GRU, RNN, and CNN-1D) for the particular Turkey dataset.
+2. This notebook, `ML703project_dataset_2.ipynb`, refers to the comparison between the models (LSTM, GRU, RNN, and CNN-1D) for the particular Texas dataset.
 
 ## Acknowledgements
 
