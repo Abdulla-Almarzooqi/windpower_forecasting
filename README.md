@@ -6,7 +6,7 @@ Our primary objective is to evaluate the efficiency of various models by compari
 # Installation
   ```
   # Clone the repository
-  git clone https://github.com/yourusername/yourprojectname.git
-  cd yourprojectname
+  git clone https://github.com/Abdulrahman88899/windpower_forecasting.git
+  cd windpower_forecasting
   ```
 
